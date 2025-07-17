@@ -7,6 +7,7 @@
   font-style: normal;
 }
 
+
 /* shared style */
 .display-flex{
     display: flex;
@@ -25,11 +26,26 @@
     background-color: rgba(255, 144, 14, 0.1);
 }
 
+.btn-primary{
+    background-color: rgba(255, 144, 14, 1);
+    color: white;
+    border: none;
+    padding: 20px 25px;
+    font-size: 1.2rem;
+    font-weight: 600px;
+    border-radius: 8px;
+}
+
 /* header style */
 
 /* nav-bar style */
+.brand{
+    font-size: 3.5rem;
+    font-weight: bold;
+}
 .nav-bar{
     justify-content: space-between;
+    align-items: center;
 }
 .navbar-item{
     list-style: none;
@@ -45,8 +61,26 @@
     margin: 0 auto;
 }
 
-.brand{
-    margin-top: 0px;
-    font-size: 45px;
-    font-weight: bold;
+/* banner style */
+.banner-content{
+    max-width: 862px;
+    margin: 0 auto;
+    text-align: center;
 }
+
+.banner-tittle{
+    font-size: 4rem;
+    font-weight: bold;
+    margin-bottom: 35px;
+    margin-top: 102px;
+}
+.banner-img{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    width: 100% ;
+}
+.banner-description{
+    margin-bottom: 32px;
+}
+
+
