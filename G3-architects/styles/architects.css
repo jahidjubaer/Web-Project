@@ -118,7 +118,23 @@ main > section {
 /* media query for mobile */
 @media screen and (max-width: 576px) {
   .nav-bar,
-  .navbar-links {
+  .navbar-links,
+    .team-container{
     flex-direction: column;
   }
+
+  .team-img{
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .team-content {
+    width: 100%;
+   
+}
+}
+
+/* media query for tab */
+@media screen and (min-width: 576px) and (max-width: 992px) {
+    .team-container{
+        flex-direction: column;
+    }
 }
