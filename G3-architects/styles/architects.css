@@ -181,7 +181,8 @@ main > section {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  padding-top: 50px;
+  padding-top: 30px;
+  padding-bottom: 20px;
 }
 .facts-num {
   font-weight: 600;
@@ -212,6 +213,7 @@ main > section {
   display: grid;
   grid-template-columns: repeat(5, 1fr);
   margin-top: 50px;
+  justify-items: center;
 }
 .sponsors-img img{
   filter: grayscale(100%);
