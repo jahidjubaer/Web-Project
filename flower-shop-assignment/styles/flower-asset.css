@@ -1,0 +1,60 @@
+/* font  */
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Merriweather+Sans:ital,wght@0,300..800;1,300..800&family=Merriweather:ital,opsz,wght@0,18..144,300..900;1,18..144,300..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Raleway:ital,wght@0,100..900;1,100..900&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap");
+
+.lato-thin-font {
+  font-family: "Lato", sans-serif;
+  font-style: normal;
+}
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+/* shared style */
+.bg-primary{
+    background-color: rgba(229, 84, 115, 0.1);
+}
+
+.color-primary{
+    color: #E55473;
+}
+.btn-primary{
+    background-color: #E55473;
+    border-radius: 8px;
+    font-weight: 700;
+    font-size: 1.25rem;
+    padding: 20px 43px;
+    color: white;
+    border: none;
+    margin-top: 32px;
+}
+.dark1{
+    color: #272727;
+}
+.dark2{
+    color: rgba(39, 39, 39, 0.6);
+}
+
+/* header-container */
+.header-container{
+    display: flex;
+    max-width: 1440px;
+    margin: 0 auto;
+    gap: 97px;
+   
+}
+.header-content{
+    max-width: 708px;
+    margin-top: 197px;
+}
+.header-tittle{
+    font-size: 5rem;
+    font-weight: bold;
+    margin-bottom: 32px;
+}
+.header-img{
+    width: 635px;
+    height: 800px;
+    margin-top: 50px;
+}
